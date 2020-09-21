@@ -13,36 +13,36 @@
 }
 
 .default {
-    background-color: $color-default-button;
+    background-color: $color-default;
     &:hover {
-        background-color: lighten($color-default-button, 25%);
+        background-color: lighten($color-default, 25%);
     }
 }
 
 .error {
-    background-color: $color-error-button;
+    background-color: $color-error;
     &:hover {
-        background-color: lighten($color-error-button, 25%);
+        background-color: lighten($color-error, 25%);
     }
 }
 
 .info {
-    background-color: $color-info-button;
+    background-color: $color-info;
     &:hover {
-        background-color: lighten($color-info-button, 25%);
+        background-color: lighten($color-info, 25%);
     }
 }
 
 .success {
-    background-color: $color-success-button;
+    background-color: $color-success;
     &:hover {
-        background-color: lighten($color-success-button, 25%);
+        background-color: lighten($color-success, 25%);
     }
 }
 
 .warning {
-    background-color: $color-warning-button;
+    background-color: $color-warning;
     &:hover {
-        background-color: lighten($color-warning-button, 25%);
+        background-color: lighten($color-warning, 25%);
     }
 }
