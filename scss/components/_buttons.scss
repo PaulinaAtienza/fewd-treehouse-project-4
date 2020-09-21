@@ -13,21 +13,36 @@
 }
 
 .default {
-    background-color: #51ddfc;
+    background-color: $color-default-button;
+    :hover {
+        background-color: lighten($color-default-button, 25%);
+    }
 }
 
 .error {
-    background-color: #e4757a;
+    background-color: $color-error-button;
+    :hover {
+        background-color: lighten($color-error-button, 25%);
+    }
 }
 
 .info {
-    background-color: #927bc1;
+    background-color: $color-info-button;
+    :hover {
+        background-color: lighten($color-info-button, 25%);
+    }
 }
 
 .success {
-    background-color: #63cc82;
+    background-color: $color-success-button;
+    :hover {
+        background-color: lighten($color-success-button, 25%);
+    }
 }
 
 .warning {
-    background-color: #fd7856;
+    background-color: $color-warning-button;
+    :hover {
+        background-color: lighten($color-warning-button, 25%);
+    }
 }
